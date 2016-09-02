@@ -1,0 +1,44 @@
+{
+    "name": "hedii/uptime-checker",
+    "description": "A php library to monitor website uptime",
+    "type": "library",
+    "keywords": [
+        "hedii",
+        "uptime-checker",
+        "php"
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "php": ">=7.0",
+        "phpunit/phpunit": "^5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hedii",
+            "email": "hedi.chaibs@gmail.com",
+            "homepage": "https://hedichaibi.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hedii/uptime-checker/issues",
+        "source": "https://github.com/hedii/uptime-checker",
+        "email": "hedi.chaibs@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hedii\\UptimeChecker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hedii\\UptimeChecker\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}

@@ -1,0 +1,17 @@
+language: php
+
+php:
+  - 7.0
+  - hhvm
+
+before_script:
+  - composer self-update
+  - composer install
+
+script:
+  - composer test
+
+matrix:
+  allow_failures:
+    - hhvm
+  fast_finish: true
