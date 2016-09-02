@@ -12,7 +12,6 @@ A php library to monitor website uptime
   - [Instantiation](#instantiation)
   - [Perform an uptime check](#perform-an-uptime-check)
   - [The result array](#the-result-array)
-- [Examples](#examples)
 - [Testing](#testing)
 - [License](#license)
 
