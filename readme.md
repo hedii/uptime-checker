@@ -9,11 +9,14 @@ A php library to monitor website uptime
 - [Table of contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Instantiation](#instantiation)
+  - [Perform an uptime check](#perform-an-uptime-check)
+  - [The result array](#the-result-array)
 - [Examples](#examples)
 - [Testing](#testing)
 - [License](#license)
 
-# Installation
+## Installation
 
 Install via [composer](https://getcomposer.org/doc/00-intro.md)
 ```sh
