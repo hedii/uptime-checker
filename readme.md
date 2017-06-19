@@ -54,7 +54,7 @@ Call the `check($url)` method with an url as a parameter to perform the uptime c
 
 ```php
 $checker = new Hedii\UptimeChecker\UptimeChecker());
-$result = $checker->check('http://example.com);
+$result = $checker->check('http://example.com');
 ```
 
 The result of this method is an array with with the check report information. The value of `success` indicates if the website is up or down:
