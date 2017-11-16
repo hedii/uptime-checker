@@ -53,7 +53,7 @@ $checker = new Hedii\UptimeChecker\UptimeChecker(new Client([
 Call the `check($url)` method with an url as a parameter to perform the uptime check.
 
 ```php
-$checker = new Hedii\UptimeChecker\UptimeChecker());
+$checker = new Hedii\UptimeChecker\UptimeChecker();
 $result = $checker->check('http://example.com');
 ```
 
