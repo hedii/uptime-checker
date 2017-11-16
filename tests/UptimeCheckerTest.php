@@ -74,7 +74,7 @@ class UptimeCheckerTest extends TestCase
             'uri' => 'http://a_website_that_is_not_online.com',
             'success' => false,
             'status' => 500,
-            'message' => 'Server error: `GET http://a_website_that_is_not_online.com` resulted in a `500 Internal Server Error` response:',
+            'message' => 'Server error: `GET http://a_website_that_is_not_online.com` resulted in a `500 Internal Server Error` response',
             'transfer_time' => 0
         ], (new UptimeChecker($client))->check('http://a_website_that_is_not_online.com'));
     }
